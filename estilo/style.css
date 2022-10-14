@@ -1,0 +1,81 @@
+*{margin: 0px;
+    padding: 0px;
+
+}
+:root{
+ @import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & family= Silkscreen & display=swap')
+
+
+}
+body { src: url(../fontes/idroid.otf); 
+    font-family: 'Silkscreen', cursiva;
+    min-width: 300px;
+max-width: 1000px;
+margin: auto;
+
+    background-color: rgb(160, 244, 192);
+}
+header{ color: rgb(255, 255, 255);
+    font-family: 'Silkscreen', cursiva;
+background-color: rgba(19, 44, 30, 0.921);
+min-height: 150px;
+text-align: center;
+padding-top: 40px;
+margin-bottom: 20px;
+
+}
+main { color: rgb(24, 21, 124);
+width: 100%;
+background-color: rgb(254, 253, 253);
+padding: 20px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.462);
+
+}
+
+aside > ul  { background-color: rgba(67, 174, 29, 0.552);
+    list-style-position:inside ; 
+    border-radius: 10px;
+    padding: 30px;
+}
+aside > h3  { background-color: rgba(67, 174, 29, 0.552);
+
+}
+aside > p { background-color: rgba(67, 174, 29, 0.552);
+
+}
+div .video {margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 80%;
+
+
+}
+div .video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+
+h2 {
+    font-size: 1.2em;
+    padding-top: 40px;
+    color: green;
+}   
+nav {
+    padding: 10px;
+    color: rgb(7, 1, 1);
+    text-decoration: none;
+    font-weight: bolder;
+}
+p {
+    margin: 15px 0px;
+}
+footer { background-color: rgba(55, 118, 73, 0.636);
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
